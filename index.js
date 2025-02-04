@@ -7,5 +7,4 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname+'/views/blog-template.html')
 });
 
-app.listen(8080,_=>console.log('started'))
 modules.exports=app
