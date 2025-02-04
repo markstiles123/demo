@@ -8,3 +8,4 @@ app.get('/', (req, res) => {
 });
 
 app.listen(process.env.PORT||8080,_=>console.log('started'))
+modules.exports=app
